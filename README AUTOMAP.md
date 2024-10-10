@@ -28,7 +28,7 @@ Some key config file entries:
 
 "fc_input_dim": Input dimensionality (# nodes)
 
-"fc_hidden_dim": Fully-Connected Hidden layer dimensionality ((# nodes)
+"fc_hidden_dim": Fully-Connected Hidden layer dimensionality (# nodes)
 
 "fc_output_dim": Fully-Connected Output layer dimensionality (# nodes)
 

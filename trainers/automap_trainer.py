@@ -98,7 +98,7 @@ class AUTOMAP_Trainer:
             
             loss_training[0, epoch] = self.train_loss
             loss_training[1, epoch] = self.val_loss
-        self.model.save(self.config.checkpoint_dir)
+            self.model.save(os.path.join(self.config.checkpoint_dir, 'model.keras'))
             # To save a different model/checkpoint at each epoch (will take up a lot more disk space!):
             # self.model.save(os.path.join(self.config.checkpoint_dir,str(epoch)+'.h5'))
 

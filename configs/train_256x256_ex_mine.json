@@ -1,0 +1,25 @@
+{
+  "exp_name": "train",
+
+  "resume": 0,
+  "loadmodel_dir": null,
+
+  "num_epochs": 20,
+  "batch_size": 1024,
+
+  "fc_input_dim": 131072,
+  "fc_hidden_dim": 65536,
+  "fc_output_dim": 65536,
+
+  "im_h": 256,
+  "im_w": 256,
+  
+  "data_dir": "Data/",
+  "train_input": "train_radial_dataset1_input_256.mat",
+  "train_output": "train_radial_dataset1_output_real_256.mat",
+  "test_input": "train_radial_dataset2_input_256.mat",
+  "test_output": "train_radial_dataset2_output_real_256.mat",
+
+  "learning_rate": 0.00002
+  
+}

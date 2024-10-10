@@ -9,7 +9,7 @@ import pickle
 import matplotlib.pyplot as plt
 import numpy as np
 
-filename1 = '/hdd3/Automap/experiments/train/checkpoint/loss_training.p'
+filename1 = 'experiments/train/checkpoint/loss_training.p'
 val = np.load(open(filename1,'rb'))
 plt.plot(val[0,:], label='Training')
 plt.plot(val[1,:], label='Test')
@@ -17,5 +17,4 @@ plt.title('AUTOMAP')
 plt.legend()
 print(val[0,-1])
 print(val[1,-1])
-
-
+plt.show()

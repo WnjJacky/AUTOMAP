@@ -11,6 +11,7 @@ from utils.utils import get_args
 def main():
     try:
         args = get_args()
+        print(args.config)
         config = process_config(args.config)
 
     except:

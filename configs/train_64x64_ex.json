@@ -14,7 +14,7 @@
   "im_h": 64,
   "im_w": 64,
   
-  "data_dir": "/hdd2/misc_hdd2/danyal_data64by64/",
+  "data_dir": "SampleData/",
   "train_input": "train_input.mat",
   "train_output": "train_x_real.mat",
   "test_input": "test_input.mat",

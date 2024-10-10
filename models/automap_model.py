@@ -6,7 +6,7 @@ from tensorflow.keras.layers import *
 
 def AUTOMAP_Basic_Model(config):
 
-    fc_1 = keras.Input(shape=(config.fc_input_dim), name='input')
+    fc_1 = keras.Input(shape=(config.fc_input_dim,), name='input')
     with tf.device('/gpu:0'):
         fc_2 = layers.Dense(config.fc_hidden_dim, activation='tanh')(fc_1)
     with tf.device('/gpu:1'):

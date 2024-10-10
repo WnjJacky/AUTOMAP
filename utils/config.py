@@ -1,5 +1,5 @@
 import json
-from bunch import Bunch
+from bunch_py3 import Bunch
 import os
 
 
